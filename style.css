@@ -6,11 +6,11 @@
 :root{
     --primary: #fff;
     --bg-envelope-color: #f5edd1;
-    --envelope-tab: #ecdeb8;
-    --envelope-cover: #e6cfa7;
+    --envelope-tab: #000000;
+    --envelope-cover: #000000;
     --shadow-color: rgba(0, 0, 0, 0.2);
     --txt-color: #444;
-    --heart-color: rgb(252, 8, 231);
+    --heart-color: rgb(20, 9, 116);
   }
   .one{
     background-color: #cccccc;
@@ -103,7 +103,7 @@
     left: 50%;
     width: 30px;
     height: 30px;
-    background: rgb(255, 131, 151);
+    background: rgb(204, 9, 9);
     z-index: 4;
     transform: translate(-50%, -20%) rotate(45deg);
     transition: transform 0.5s ease-in-out 1s;
@@ -116,7 +116,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: rgb(255, 131, 151);
+    background-color: rgb(204, 9, 9);
     border-radius: 50%;
   }
   .heart:before {
@@ -251,6 +251,19 @@
   }
 
   .prev-track:hover, .playpause-track:hover, .next-track:hover{
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(18, 197, 129);
     transition-duration: .5s;
   }
+
+  body{
+    background-color: rgb(180, 223, 125)
+  }
+
+  .texto-header{
+    position: relative;
+    top: 50%;
+    transform: translateY(100%);
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}

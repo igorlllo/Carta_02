@@ -60,25 +60,20 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
-        name: "Only",
-        artist: "Lee Hi",
-        path: "./music/only.mp3",
+        name: "Until the end",
+        artist: "Igor",
+        path: "./music/I will be your friend until the end.mp3",
     },
     {
-        name: "Day & Night",
-        artist: "Jung Seung Hwan",
-        path: "./music/day and night.mp3",
+        name: "Amigo estou aqui",
+        artist: "Toy Story",
+        path: "./music/Amigo estou aqui.mp3",
     },
     {
-        name: "Love of my Life",
-        artist: "Reyne",
-        path: "./music/love of my life.mp3",
-    },
-    {
-        name: "The Only One",
-        artist: "Reyne",
-        path: "./music/the only one.mp3",
-    },
+        name: "Count on me",
+        artist: "Bruno Mars",
+        path: "./music/Count on me - Bruno Mars.mp3",
+    }
 ];
 
 // EVENT LISTENERS
